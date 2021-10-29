@@ -22,4 +22,5 @@ const { Client, ClientApplication } = require("discord.js");
   await client.application.fetch();
   const guildId = process.argv[2];
   if (!guildId) await client.application.commands.set(commands); else await client.application.commands.set(commands, guildId);
-})();
+  console.log("success!");
+})().catch(console.error);
