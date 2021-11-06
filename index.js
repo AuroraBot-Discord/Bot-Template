@@ -70,7 +70,6 @@ client.on("messageCreate", async (message) => {
         }
         message.reply(`\`\`\`js\n${err}\n\`\`\``);
       });
-    }
   }
 });
 
