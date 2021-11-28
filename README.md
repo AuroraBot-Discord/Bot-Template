@@ -12,7 +12,7 @@ With EvalCommand and SlashCommand :)
 
 Step1: Invite your BotClient to your any guilds with `Bot` and `application.commands` permissions.
 Step2: Insert the Token to `BOT_TOKEN` enviroment variables.
-Step3: Run `npx node register.js` in shell.
+Step3: Run `npx node register.js GuildID` in shell.
 Step4: Run `npx node index.js` in shell.
 
 ## 注意
