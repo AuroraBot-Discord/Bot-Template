@@ -1,6 +1,7 @@
 # Bot-Template
 Discord.js v13でBotを作る際のテンプレート
 
+# Bot-Template
 The template for Version13 Discord.js Bot
 With EvalCommand and SlashCommand :)
 
@@ -10,11 +11,14 @@ With EvalCommand and SlashCommand :)
 3. `npx node register.js コマンドを使うサーバーID`を実行
 4. `npx node index.js`でBot実行
 
+## Manual
 Step1: Invite your BotClient to your any guilds with `Bot` and `application.commands` permissions.
 Step2: Insert the Token to `BOT_TOKEN` enviroment variables.
 Step3: Run `npx node register.js GuildID` in shell.
 Step4: Run `npx node index.js` in shell.
 
 ## 注意
-・使い方 3.のサーバーIDはGuildCommandとして設定するためのものです。GlobalCommandとして登録する場合は空欄にしてください。
-・The "GuildID" of Step3 value is for setting up GuilsCommand. Please put it blank when you want setup GlobalCommand.
+使い方 3.のサーバーIDはGuildCommandとして設定するためのものです。GlobalCommandとして登録する場合は空欄にしてください。
+
+## Notice
+The "GuildID" of Step3 value is for setting up GuilsCommand. Please put it blank when you want setup GlobalCommand.
